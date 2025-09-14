@@ -27,12 +27,13 @@ venv\Scripts\activate
 4. **Project Structure**
 
 appointment-flask-api/
-├── __pycache__
-├── venv
-├── app.py
-├── config.py
-├── requirements.txt
-└── README.md
+- __pycache__/
+- venv/
+- app.py
+- config.py
+- requirements.txt
+- README.md
+
 
 
 ---
@@ -46,7 +47,8 @@ appointment-flask-api/
 
 2. **Create Appointments Table**
 
-- USE appointments_flask;
+""" sql 
+USE appointments_flask;
 
 CREATE TABLE appointments (
 id INT PRIMARY KEY AUTO_INCREMENT,
@@ -58,7 +60,7 @@ purpose VARCHAR(255),
 diagnosis TEXT,
 prescription TEXT
 );
-
+"""
 
 3. **Configure Database Credentials**
 
