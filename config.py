@@ -1,7 +1,8 @@
 MYSQL_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Ipcr@1031',
+    'password': '',
     'database': 'appointments_flask',
     'port':3306
 }
+
